@@ -14,7 +14,8 @@ from airflow.operators.python_operator import PythonOperator, BranchPythonOperat
 
 
 #api requested from https://openexchangerates.org/
-api_key = "05fbe5a37e4047f68aa5e0cf619d6061"
+#add your key below :
+api_key = ""
 
 default_args = {
     "owner": "airflow",
